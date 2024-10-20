@@ -110,8 +110,11 @@
   </div>
   
   <div id="1" class="w3-container w3-border city">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
+   <br><p> Aristote est un philsophe grec. </p><br>
+  <div style="display:flex"> 
+    <img src="image/a1.jpg"> 
+    <img src="image/a2.jpg"> 
+ </div> 
   </div>
 
   <div id="2" class="w3-container w3-border city" style="display:none">
