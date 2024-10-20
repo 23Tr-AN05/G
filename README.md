@@ -118,8 +118,8 @@
   </div>
 
   <div id="2" class="w3-container w3-border city" style="display:none">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
+   <img src="image/a1.jpg" style="float:left;" /><img src="image/a2.jpg" style="float:left;" />
+<div style="clear:both;"></div>
   </div>
 
   <div id="3" class="w3-container w3-border city" style="display:none">
@@ -139,81 +139,6 @@
 
 
 
-
-
-
-
-<div class="w3-sidebar w3-bar-block w3-black w3-card" style="width:130px">
-  <h5 class="w3-bar-item"></h5>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, '1')">Qui est-il?</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, '2')">Biographie</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, '3')">Oeuvres</button>
-   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, '4')">À retenir</button>
-</div>
-
-<div style="margin-left:130px">
-  <div class="w3-padding"> <p id="para5" style="border: 1px solid black; padding: 10px;"><b>ARISTOTE </b></p></div>
-
-  <div id="1" class="w3-container city w3-animate-opacity" style="display:none">
-  <br><p> Aristote est un philsophe grec. </p><br>
-  <div style="display:flex"> 
-    <img src="image/a1.jpg"> 
-    <img src="image/a2.jpg"> 
- </div> 
-  
-  </div>
-
-  <div id="2" class="w3-container city w3-animate-left" style="display:none">
-    <h2>Slide in from left</h2>
-    <p>Paris is the capital of France.</p> 
-    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
-  </div>
-
-  <div id="3" class="w3-container city w3-animate-top" style="display:none">
-    <h2>Slide in from top</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
-  </div>
-
-  <div id="4" class="w3-container city w3-animate-right" style="display:none">
-    <h2>Slide in from right</h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-  </div>
-
-  
-
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script>
- function openLink(evt, animName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-  }
-  document.getElementById(animName).style.display = "block";
-  evt.currentTarget.className += " w3-red";
- }
- </script>
- 
- 
  
  <script>
  function openCity(evt, cityName) {
