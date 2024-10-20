@@ -112,9 +112,12 @@
   <div class="w3-padding"> <p id="para5" style="border: 1px solid black; padding: 10px;"><b>ARISTOTE </b></p></div>
 
   <div id="1" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Fade in</h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <br><p> Aristote est un philsophe grec. </p><br>
+  <div style="display:flex"> 
+    <img src="image/a1.jpg"> 
+    <img src="image/a2.jpg"> 
+ </div> 
+  
   </div>
 
   <div id="2" class="w3-container city w3-animate-left" style="display:none">
