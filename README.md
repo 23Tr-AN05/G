@@ -123,6 +123,10 @@
   </div>
 
   <div id="3" class="w3-container w3-border city" style="display:none">
+  <p style="float:right"><img src="image/a1.jpg" style="float:left;" /><img src="image/a2.jpg" style="float:left;" />
+<div style="clear:both;"></div></p>
+ <p>blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla</p>
+ <p>blabla</p>
     <h2>Tokyo</h2>
     <p>Tokyo is the capital of Japan.</p>
   </div>
