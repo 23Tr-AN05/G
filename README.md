@@ -99,7 +99,7 @@
  <h1 id="para1">CULTURE GÉNÉRALE </h1>
  <br> <br>
 
-<div class="w3-container">
+ <div class="w3-container">
   <div class="w3-padding"> <p id="para5" style="border: 1px solid black; padding: 10px;"><b>ARISTOTE </b></p></div>
 
   <div class="w3-bar w3-black">
@@ -119,7 +119,46 @@
 
   <div id="2" class="w3-container w3-border city" style="display:none">
    <img src="image/a1.jpg" style="float:left;" /><img src="image/a2.jpg" style="float:left;" />
-<div style="clear:both;"></div>
+ <div style="clear:both;"></div>
+  </div>
+
+  <div id="3" class="w3-container w3-border city" style="display:none">
+  <p style="float:right"><img src="image/a1.jpg" style="float:left;" /><img src="image/a2.jpg" style="float:left;" />
+ <div style="clear:both;"></div></p>
+ <p>blablablablablablablablablablablalablabla</p>
+ <p>blabla</p>
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  
+  <div id="4" class="w3-container w3-border city" style="display:none">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+ </div>
+ <br><hr/>
+ 
+ <div class="w3-container">
+  <div class="w3-padding"> <p id="para5" style="border: 1px solid black; padding: 10px;"><b>Emmanuel KANT  </b></p></div>
+
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'1')">Qui est-il</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'2')">Biographie</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'3')">Oeuvres</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'4')">À retenir</button>
+  </div>
+  
+  <div id="1" class="w3-container w3-border city">
+   <br><p> Aristote est un philsophe grec. </p><br>
+  <div style="display:flex"> 
+    <img src="image/a1.jpg"> 
+    <img src="image/a2.jpg"> 
+ </div> 
+  </div>
+
+  <div id="2" class="w3-container w3-border city" style="display:none">
+   <img src="image/a1.jpg" style="float:left;" /><img src="image/a2.jpg" style="float:left;" />
+ <div style="clear:both;"></div>
   </div>
 
   <div id="3" class="w3-container w3-border city" style="display:none">
@@ -136,7 +175,8 @@
     <p>Tokyo is the capital of Japan.</p>
   </div>
 </div>
-<br><hr/>
+
+
 
 
 
